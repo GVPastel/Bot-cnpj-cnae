@@ -1,4 +1,10 @@
-# Bot-cnpj-cnae
-Bot de automação para consulta de cnpj, focado em buscar as atividades das empresas mas com possibilidade de busca de qualquer dado registrado no banco de dados do governo. 
-Bot utiliza da conexao com banco de dados atravez da biblioteca mysql.conector para pegar os cnpjtas do banco de dados e conectar com os dados do governo federal, para assim conseguir mostrar as informações.
-Alem de criar automaticamente um arquivo csv com os cnpjtas invalidos para que sejam verificados e assim adicionados corretamente ao banco.
+# cnpj-cnae
+busca de cnae por cnpj
+
+criar um bot para pegar o cnpj no banco de dados mysql e consultar no site do governo [(buscar site certo)](https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp)https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
+
+conectar python com o banco de dados mysql para possibilitar fazer essa busca
+
+buscar maneira de burlar captcha
+
+pegar as informações fornecidas pela consulta no site da receita federal e coloca-las no banco de dados mysql
